@@ -36,7 +36,7 @@ function divide(a, b) {
     return result
   }
   else
-    throw "Error"
+  throw new Error('No dividing by 0 allowed');
 }
 
 function multiply(a, b) {
